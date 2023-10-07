@@ -5,6 +5,8 @@ import { getAuth } from "firebase/auth";
 // import app from '../../firebase/firebase.init';
 import app from '../../firebase/firebase.config';
 import { ToastContainer, toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
+
 
 
 const Register = () => {
@@ -70,8 +72,13 @@ return;
               <label htmlFor="password" className="block text-gray-700 font-semibold mb-2">Password</label>
               <input type="password" id="password" name="password" className="w-full p-2 border rounded focus:outline-none focus:border-blue-500" required />
             </div>
-            <div className="text-center">
-              <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300 ease-in-out">Register</button>
+            <div className="  text-center">
+              <button type="submit" className=" btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300 ease-in-out">Register</button>
+              <p>                        Don't have Account?
+                        </p>
+                        <Link to="/login" className="btn btn-primary bg-green-500 mr-2">
+                            Login
+                        </Link>
             </div>
           </form>
 

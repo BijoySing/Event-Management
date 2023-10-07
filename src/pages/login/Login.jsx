@@ -1,11 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import {getAuth,  signInWithEmailAndPassword } from "@firebase/auth";
+import app from '../../firebase/firebase.config';
+// import { Auth } from 'firebase/auth';
 const Login = () => {
+    const [success, setSuccss] = useState("");
+    const [registerError, setRegisterError] = useState("");
+    const auth = getAuth(app);
+
 
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log("done");
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        setRegisterError('');
+        setSuccss('');
+        signInWithEmailAndPassword(auth, email, password)
+            .then(res => {
+                setSuccss('successfully');
+                console.log(res.user)
+                console.log("logged");
+
+            })
+            .catch(error => {
+                console.log(error);
+                 setRegisterError(error.message);
+                setRegisterError('invalid email or password'); // Set the error message
+
+            })
+
     }
 
 
@@ -13,6 +36,13 @@ const Login = () => {
 
         <div className="bg-gray-100 min-h-screen flex items-center justify-center">
             <div className="bg-white p-8 rounded shadow-md w-96">
+            {
+            registerError && <h5>{registerError}</h5>
+
+          }
+          {
+            success && <p>successfully</p>
+          }
                 <h1 className="text-2xl font-semibold mb-4">Login</h1>
                 <form onSubmit={handleLogin}>
                     <div className="mb-4">
