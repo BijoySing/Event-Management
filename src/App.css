@@ -1,1 +1,5 @@
- 
+ .navbar{
+  max-width: 1500px;
+  margin: auto;
+  border-radius: 25px;
+ }

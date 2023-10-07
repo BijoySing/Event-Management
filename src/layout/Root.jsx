@@ -1,8 +1,13 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "../pages/navbar/Navbar";
+import Register from "../pages/register/Register";
 
 const Root = () => {
     return (
         <div>
-            <h1>lkjhfbdvblkjfgdk</h1>
+            <Navbar></Navbar>
+            {/* <Register></Register>             */}
+            <Outlet></Outlet>
         </div>
     );
 };

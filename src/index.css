@@ -1,5 +1,4 @@
 @export @tailwind base;
 
-@export @tailwind components;
-
-@export @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
