@@ -9,3 +9,9 @@ Currently, two official plugins are available:
 
 https://gfsevents.org/
 https://preview.themeforest.net/item/wedding-planner-responsive-wedding-theme/full_screen_preview/19473925
+
+i wamt to add
+-> rewiew
+->ratings
+->our gallary
+->google sign in
