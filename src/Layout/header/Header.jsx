@@ -1,12 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../auth/AuthProvider";
 
 
 const Header = () => {
+    const {user,logout} =useContext(AuthContext);
 
+    const handleLogout = () => {
+        logout().then((result) => console.log(result));
+      };
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
         <li><NavLink to="/blogs">Blogs</NavLink></li>
+        {/* <li><NavLink to="/login">login</NavLink></li> */}
 
     </>
 
@@ -28,8 +35,23 @@ const Header = () => {
                     {links}
                 </ul>
             </div>
+            {/* <div className="navbar-end"> */}
+                {/* <Link to="/login" className="btn">Sign in</Link> */}
+                {/* <button className="btn btn-warning">Log Out</button> */}
+                {/* <p>{user.email}</p> */}
+                {/* <a className='btn btn-primary bg-green-100' href="/login">Sign in</a> */}
+                {/* <Link to="/login" className="btn">Sign In</Link> */}
+
+            {/* </div> */}
             <div className="navbar-end">
-                <a className="btn">Sign in</a>
+                {user ? (
+                    <>
+                        <p>{user.email}</p>
+                        <button onClick={handleLogout} className="btn">Log Out</button>
+                    </>
+                ) : (
+                    <Link to="/login" className="btn">Sign In</Link>
+                )}
             </div>
         </div>
     );
