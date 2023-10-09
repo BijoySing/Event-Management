@@ -8,38 +8,47 @@ const Header = () => {
   const handleLogout = () => {
     logout().then((result) => console.log(result));
   };
-
   const links = (
     <>
-      <li>
-        <NavLink
-          to="/"
-          style={{ textDecoration: 'none', color: 'blue',fontSize:'20px' }}
-          activeStyle={{ fontWeight: 'bold', color: 'blue' }}
-        >
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/about"
-          style={{ textDecoration: 'none', color: 'blue',fontSize:'20px' }}
-          activeStyle={{ fontWeight: 'bold', color: 'pink' ,fontSize:'20px'}}
-        >
-          About Us
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/blogs"
-          style={{ textDecoration: 'none', color: 'blue',fontSize:'20px' }}
-          activeStyle={{ fontWeight: 'bold', color: 'blue' }}
-        >
-          Blogs
-        </NavLink>
-      </li>
+        <li>
+            <NavLink className="nava"
+                to="/"
+            >
+                Home
+            </NavLink>
+        </li>
+        <li>
+            <NavLink className="nava"
+                to="/about"
+            >
+                About Us
+            </NavLink>
+        </li>
+        <li>
+            <NavLink className="nava"
+                to="/blogs"
+            >
+                Blogs
+            </NavLink>
+        </li>
+        <li>
+            <NavLink className="nava"
+                to="/faq"
+            >
+                FAQ
+            </NavLink>
+        </li>
+        <li>
+            <NavLink className="nava"
+                to="/ff"
+               
+            >
+                404
+            </NavLink>
+        </li>
     </>
-  );
+);
+
 
   return (
     <div className="navbar bg-base-300 shadow-lg rounded-lg m-auto mb-">
@@ -82,9 +91,9 @@ const Header = () => {
       <div className="navbar-end">
         {user ? (
           <><div className="pic rounded-full flex">
-          <img className="w-[50px] rounded-full" src={user.photoURL} alt="" />
-            <p className="">{user.email}</p>
-            </div>
+            <img className="w-[40px] lg:w-[50px] rounded-full " src={user.photoURL} alt="" />
+            <p className="text-[1px] lg:text-[15px]">{user.email}</p>
+          </div>
             <button onClick={handleLogout} className="btn sign rounded-full">
               Log Out
             </button>

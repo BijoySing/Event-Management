@@ -45,7 +45,7 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(res => {
                 setSuccss('Login successful');
-                toast.error('Login successful');
+                toast.success('Login successful');
                 console.log(res.user);
                 console.log("Logged in");
                 // const navigate = useNavigate();
@@ -57,16 +57,17 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
-                // setRegisterError(error.message);
+                 setRegisterError('invalid email or password');
             });
     }
 
     return (
-        <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+        <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+            <h1>Login  Form</h1>
             <div className="bg-white p-8 rounded shadow-md w-96">
                 {registerError && toast.error(registerError)}
                 {/* {success && toast.success(succss)} */}
-                <h1 className="text-2xl font-semibold mb-4">Login</h1>
+                <h1 className="text-2xl font-semibold mb-4"></h1>
                 <form onSubmit={handleLogin}>
                     <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email Address</label>

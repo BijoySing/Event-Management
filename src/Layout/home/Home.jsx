@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from '../banneer/Banner';
 import AllServices from '../allServices/AllServices';
 import DetailsServices from '../services/DetailsServices';
+import FAQ from '../faq/FAQ';
+import About from '../about/About';
 
 const Home = () => {
     return (
@@ -9,8 +11,9 @@ const Home = () => {
             <Banner></Banner>
             <AllServices></AllServices>
             <DetailsServices></DetailsServices>
+            <FAQ></FAQ>
+            <About></About>
             
-            <h1>this is home</h1>
             
         </div>
     );

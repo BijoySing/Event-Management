@@ -7,7 +7,7 @@ const About = () => {
                 <div className="container mx-auto">
                     <div className="flex flex-col items-center justify-center">
                         <h2 className="text-center text-colorHead text-xl lg:text-5xl font-extrabold mb-6">
-                            About EventHub
+                            About US
                         </h2>
                         <p className="px-5 lg:px-0 text-center font-medium text-colorPara leading-6 max-w-xl">
                             At EventHub, we specialize in turning your moments into beautiful memories. With a passion for
@@ -60,7 +60,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className="testimonials section max-w-screen-xl mx-auto my-12 lg:my-32">
+            <section className=" testimonials section max-w-screen-xl mx-auto my-12 lg:my-">
                 <div className="container mx-auto">
                     <h2 className="text-center text-colorHead text-3xl lg:text-4xl font-extrabold mb-6">
                         What Our Clients Say

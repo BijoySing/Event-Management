@@ -32,12 +32,15 @@ body{
     color: azure;
 
 }
+
+
 .pic{
     border: 2px solid black;
     padding: 1px;
-    border-radius: 25px;
+    border-radius: px;
     margin-right:2px ;
-    font-weight: 600;
+    font-weight: 00;
+    font-size: px;
     background-color: rgb(226, 237, 237);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -102,3 +105,23 @@ body{
     right: 10px;
     left: 120px;
   }
+  .nav-link:hover {
+    color: red; /* Change this to the desired color when hovered */
+    cursor: pointer; /* Optional: Change cursor to a pointer on hover */
+}
+.nav-link:hover {
+    color: red; /* Change this to the desired color when hovered */
+    cursor: pointer; /* Optional: Change cursor to a pointer on hover */
+}
+.nava{
+    color:rgb(0, 0, 0);
+    background: #c5baba;
+    margin-right: 2px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 400;
+}
+.nava:hover{
+    color: rgb(227, 227, 234);
+    background-color: blue;
+}
