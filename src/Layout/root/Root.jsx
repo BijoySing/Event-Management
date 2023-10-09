@@ -1,6 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer} from 'react-toastify';
+
+
 
 const Root = () => {
     return (
@@ -10,6 +14,7 @@ const Root = () => {
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
+            <ToastContainer /> 
 
         </div>
     );

@@ -18,9 +18,12 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: b
 
 <i>Write your explanation here</i>
+
+Typo in variable name, greetign is not defined
+
 
 </p>
 </details>
@@ -43,10 +46,11 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
 <i>Write your explanation here</i>
 
+ 1 + '2', JavaScript sees that one of the operands is a string ('2') and the other is a number (1). To perform the + operation, JavaScript converts the number 1 to a string and then concatenates the two strings together. So, '1' + '2' results in '12'.
 </p>
 </details>
 
@@ -69,9 +73,12 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
 <i>Write your explanation here</i>
+
+this change only affects the info object and has no direct impact on the food array. So, when you log the food array using console.log(food), it will still contain the original elements "🍕", "🍫", "🥑", and "🍔"
+
 
 </p>
 </details>
@@ -94,10 +101,11 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
 <i>Write your explanation here</i>
 
+ 'name' parameter inside the sayHi function is undefined because you didn't provide a value for it. When you try to concatenate undefined with the string "Hi there, ", JavaScript performs type coercion and converts undefined to the string "undefined"
 </p>
 </details>
 
@@ -122,9 +130,11 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 3
 
 <i>Write your explanation here</i>
+
+Inside the loop, it checks if each element is "truthy" (meaning it's not equal to 0). If an element is "truthy," it increments the count by 1. Since there are three "truthy" elements in the array (1, 2, and 3), the final value of count becomes 3.
 
 </p>
 </details>

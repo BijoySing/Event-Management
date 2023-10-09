@@ -6,6 +6,8 @@ import { getAuth } from "firebase/auth";
 import app from '../../firebase/firebase.config';
 // import { ToastContainer, toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
+toast
 
 
 
@@ -29,14 +31,20 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(email);
         if (password.length < 6) {
-            setRegisterError("Please enter 6 digit password");
+            toast.error("Please enter 6 digit password");
+            // toast.error('enter')
+
+            
+
             return;
         }
         else if (!passwordRegex.test(password)) {
             // Password meets the criteria
             console.log("Password is valid");
             console.log("Password is invalid");
-            setRegisterError("your password should have atleasr one uppercase and lowercase");
+            // toast.error("registerError")
+
+            toast.error("Your password should have at least one uppercase and lowercase character");
             return;
         }
         // console.log(email,password);
@@ -46,7 +54,7 @@ const Register = () => {
             .then(res => {
                 setSuccss('successfully');
                 console.log(res.user);
-
+                toast.success('successfully Login')
                 const navigate = useNavigate();
                 navigate('/');
 
@@ -55,7 +63,7 @@ const Register = () => {
             .catch(error => {
                 console.log(error);
                 // setRegisterError(error.message);
-                setRegisterError(error.message); // Set the error message
+               // setRegisterError(error.message); // Set the error message
 
             })
     }
@@ -66,11 +74,11 @@ const Register = () => {
 
                 <div className="bg-white p-8 rounded shadow-md w-96">
                     {
-                        registerError && <h5>{registerError}</h5>
+                        // registerError && toast.error(registerError)
 
                     }
                     {
-                        success && <p>successfully</p>
+                        // success && toast.success(success)
                     }
                     <h1 className="text-2xl font-semibold mb-4">Register</h1>
                     <form onSubmit={handleRegister}>

@@ -3,6 +3,9 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { getAuth, signInWithEmailAndPassword } from "@firebase/auth";
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'; // Import Google Sign-In related functions
 import app from '../../firebase/firebase.config';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Login = () => {
     const [success, setSuccss] = useState("");
@@ -23,7 +26,7 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log("Google Sign-In successful:", user);
-                setSuccss('Google Sign-In successful');
+                toast.success('Google Sign-In successful');
                 window.location.href = from; // Redirect to the previous page
 
             })
@@ -42,6 +45,7 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(res => {
                 setSuccss('Login successful');
+                toast.error('Login successful');
                 console.log(res.user);
                 console.log("Logged in");
                 // const navigate = useNavigate();
@@ -53,15 +57,15 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
-                setRegisterError(error.message);
+                // setRegisterError(error.message);
             });
     }
 
     return (
         <div className="bg-gray-100 min-h-screen flex items-center justify-center">
             <div className="bg-white p-8 rounded shadow-md w-96">
-                {registerError && <h5>{registerError}</h5>}
-                {success && <p>{success}</p>}
+                {registerError && toast.error(registerError)}
+                {/* {success && toast.success(succss)} */}
                 <h1 className="text-2xl font-semibold mb-4">Login</h1>
                 <form onSubmit={handleLogin}>
                     <div className="mb-4">
@@ -84,6 +88,8 @@ const Login = () => {
                     </div>
                 </form>
             </div>
+            <ToastContainer /> {/* Add this component to display toast notifications */}
+
         </div>
     );
 };
