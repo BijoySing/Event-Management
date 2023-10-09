@@ -97,3 +97,8 @@ body{
     border:  1px solid rgb(233, 226, 226);
     color: rgb(8, 15, 20);
   }
+  .pic2{
+    position: relative;
+    right: 10px;
+    left: 120px;
+  }

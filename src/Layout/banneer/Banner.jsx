@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='banner-container'>
             <img
                 className='banner-image'
-                src="/src/assets/c.jpg"
+                src="https://i.ibb.co/bN6hKDW/c.jpg"
                 alt=""
             />
             <div className='overlay'></div> {/* Add an overlay */}

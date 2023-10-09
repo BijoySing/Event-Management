@@ -3,20 +3,16 @@ import React from 'react';
 const BlogPost = () => {
     return (
         <div className="blog-post">
-            <img
-                src="https://via.placeholder.com/800x400" // Replace with your blog post image URL
-                alt="Blog Post Cover"
-                className="blog-post-cover"
-            />
+           <img src="https://www.biz4solutions.com/blog/wp-content/uploads/2021/04/event-management-solution.jpg" alt="" />
             <div className="blog-post-content">
                 <h1 className="blog-post-title">
                     10 Tips for Planning the Perfect Event
                 </h1>
                 <p className="blog-post-metadata">
                     Posted on <span className="date">October 15, 2023</span> by{' '}
-                    <span className="author">John Doe</span>
+                    <span className="author">Bijoy Sing</span>
                 </p>
-                <p>
+                <p className='text-xl text-gray-700'>
                     Planning an event can be both exciting and challenging. Whether you're organizing a
                     wedding, corporate conference, or a birthday party, careful planning is essential
                     to ensure everything goes smoothly. Here are ten tips to help you plan the perfect event.

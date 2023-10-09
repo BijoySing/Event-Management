@@ -26,7 +26,7 @@ const Header = () => {
           style={{ textDecoration: 'none', color: 'blue',fontSize:'20px' }}
           activeStyle={{ fontWeight: 'bold', color: 'pink' ,fontSize:'20px'}}
         >
-          Services
+          About Us
         </NavLink>
       </li>
       <li>

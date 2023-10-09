@@ -1,93 +1,92 @@
 [
-    {
+  {
       "id": 1,
       "image": "https://i.ibb.co/2gsFk3m/Baby-shower.jpg",
       "title": "Baby Shower Event",
       "booking_cost": "$500",
       "service_description": "Celebrate the arrival of a new baby with our beautifully designed baby shower event.",
-      "our_responsibility": "We'll handle everything from decorations to catering, so you can enjoy the celebration.",
+      "our_responsibility": "At EventHub, our responsibility for your Baby Shower Event is to ensure that every moment is filled with joy and precious memories. We'll handle everything from decorations to catering, so you can relax and enjoy the celebration with your loved ones. Our team of experienced event planners will create a magical atmosphere that captures the essence of this special occasion. From themed decorations to a delightful menu, we've got it all covered. We understand the importance of this event, and we're dedicated to making it a day to remember. Let us take care of the details while you cherish the moments with your family and friends.",
       "contact_info": {
-        "phone": "123-456-7890",
-        "email": "info@example.com",
-        "address": "123 Event Street, City"
+          "phone": "123-456-7890",
+          "email": "info@example.com",
+          "address": "123 Event Street, City"
       },
       "customer_review": "Amazing baby shower event! Everything was perfect.",
       "ratings": 4.8
-    },
-    {
+  },
+  {
       "id": 2,
       "image": "https://i.ibb.co/0ZCWnHX/Engagement.jpg",
       "title": "Engagement Party",
       "booking_cost": "$800",
-      "service_description": "Host a memorable engagement party with our event planning services. we are want",
-      "our_responsibility": "We'll create a romantic atmosphere and take care of all the details.",
+      "service_description": "Host a memorable engagement party with our event planning services.",
+      "our_responsibility": "For your Engagement Party, EventHub takes responsibility for creating a romantic and unforgettable atmosphere. Our dedicated team will handle all the details, ensuring that your engagement party is a magical and stress-free experience. From selecting the perfect venue to designing elegant decor and arranging a delectable menu, we've got it all covered. We understand the significance of this moment in your life, and we're committed to making it truly special. Celebrate your love with style and sophistication, and trust us to make it a day you'll treasure forever.",
       "contact_info": {
-        "phone": "234-567-8901",
-        "email": "info@example.com",
-        "address": "456 Celebration Lane, Town"
+          "phone": "234-567-8901",
+          "email": "info@example.com",
+          "address": "456 Celebration Lane, Town"
       },
       "customer_review": "The engagement party was fantastic! Highly recommended.",
       "ratings": 4.9
-    },
-    {
+  },
+  {
       "id": 3,
       "image": "https://i.ibb.co/1rD2kBg/anneversary.jpg",
       "title": "Anniversary Celebration",
       "booking_cost": "$600",
       "service_description": "Celebrate your special anniversary with a romantic and memorable event.",
-      "our_responsibility": "We'll plan the perfect anniversary celebration to cherish your love.",
+      "our_responsibility": "At EventHub, we take responsibility for planning the perfect Anniversary Celebration to cherish your love. Our experienced team will craft a romantic and personalized experience that reflects your unique journey together. From selecting a picturesque location to arranging heartfelt decorations and creating a sumptuous menu, we ensure every detail is perfect. Celebrate your love story in style and let us make it an anniversary to remember.",
       "contact_info": {
-        "phone": "345-678-9012",
-        "email": "info@example.com",
-        "address": "789 Love Street, Village"
+          "phone": "345-678-9012",
+          "email": "info@example.com",
+          "address": "789 Love Street, Village"
       },
       "customer_review": "Our anniversary celebration was magical. Thank you!",
       "ratings": 4.7
-    },
-    {
+  },
+  {
       "id": 4,
       "image": "https://i.ibb.co/TYp95Sk/party.jpg",
       "title": "Party Planning",
       "booking_cost": "$700",
       "service_description": "Plan the ultimate party with our event planning services.",
-      "our_responsibility": "We'll take care of every detail to make your party a hit.",
+      "our_responsibility": "For Party Planning, EventHub takes responsibility for every detail to make your party a hit. Our creative team will work closely with you to design a one-of-a-kind party experience. From selecting a unique theme to arranging entertainment and crafting a mouthwatering menu, we've got it all covered. Celebrate in style and let us turn your party vision into reality. It's your special day, and we're here to make it unforgettable.",
       "contact_info": {
-        "phone": "456-789-0123",
-        "email": "info@example.com",
-        "address": "234 Party Avenue, Suburb"
+          "phone": "456-789-0123",
+          "email": "info@example.com",
+          "address": "234 Party Avenue, Suburb"
       },
       "customer_review": "The party was a blast! Thanks for making it happen.",
       "ratings": 4.8
-    },
-    {
+  },
+  {
       "id": 5,
       "image": "https://i.ibb.co/F3CYDzF/birthday.jpg",
       "title": "Birthday Bash",
       "booking_cost": "$400",
       "service_description": "Throw an unforgettable birthday bash with our event planning services.",
-      "our_responsibility": "We'll create a fun and exciting birthday celebration for you.",
+      "our_responsibility": "For your Birthday Bash, EventHub takes responsibility for creating a fun and exciting celebration. Our team of experts will design a unique and vibrant birthday experience. From themed decorations to organizing thrilling activities and preparing a delectable menu, we've got it all covered. Celebrate your special day with us and let us add the 'wow' factor to your birthday bash.",
       "contact_info": {
-        "phone": "567-890-1234",
-        "email": "info@example.com",
-        "address": "567 Birthday Street, Town"
+          "phone": "567-890-1234",
+          "email": "info@example.com",
+          "address": "567 Birthday Street, Town"
       },
       "customer_review": "The birthday bash was amazing! Highly recommended.",
       "ratings": 4.9
-    },
-    {
+  },
+  {
       "id": 6,
       "image": "https://i.ibb.co/L8w324v/wedding.jpg",
       "title": "Dream Wedding",
       "booking_cost": "$1500",
       "service_description": "Plan your dream wedding with our expert event planners.",
-      "our_responsibility": "We'll make your wedding day magical and stress-free.",
+      "our_responsibility": "At EventHub, we take responsibility for making your Dream Wedding day magical and stress-free. Our dedicated team of professionals will work closely with you to turn your wedding dreams into reality. From selecting the perfect venue to crafting breathtaking decor, arranging flawless logistics, and creating a sumptuous menu, we ensure every detail is perfect. Your wedding day is a once-in-a-lifetime event, and we're committed to making it truly unforgettable. Trust us to make your dream wedding a reality.",
       "contact_info": {
-        "phone": "678-901-2345",
-        "email": "info@example.com",
-        "address": "890 Wedding Lane, City"
+          "phone": "678-901-2345",
+          "email": "info@example.com",
+          "address": "890 Wedding Lane, City"
       },
       "customer_review": "Our wedding day was perfect thanks to this team!",
       "ratings": 5.0
-    }
-  ]
-  
+  }
+]
