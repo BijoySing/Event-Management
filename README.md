@@ -1,4 +1,3 @@
-Certainly! Here are five bullet points mentioning features and functionalities of your event planning website in README format:
 
 - **Diverse Event Services:** Explore a diverse range of event planning services, including baby showers, engagement parties, anniversaries, parties, birthdays, and dream weddings, all in one place.
 
