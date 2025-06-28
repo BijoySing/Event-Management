@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/2gsFk3m/Baby-shower.jpg",
+        "title": "Baby Shower Event",
+        "booking_cost": "$500",
+        "service_description": "Celebrate the arrival of a new baby with our beautifully designed baby shower event.",
+        "our_responsibility": "We handle all decorations and setup. Our team manages catering and refreshments. We coordinate activities and games. We ensure a joyful, stress-free experience. You enjoy the celebration with loved ones.",
+        "contact_info": {
+            "phone": "123-456-7890",
+            "email": "info@example.com",
+            "address": "123 Event Street, City"
+        },
+        "customer_review": "Amazing baby shower event! Everything was perfect.",
+        "ratings": 4.8
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/0ZCWnHX/Engagement.jpg",
+        "title": "Engagement Party",
+        "booking_cost": "$800",
+        "service_description": "Host a memorable engagement party with our event planning services.",
+        "our_responsibility": "We select the perfect venue for your party. Our team designs elegant decorations. We arrange a delicious menu for guests. Entertainment and music are fully managed. You celebrate while we handle the details.",
+        "contact_info": {
+            "phone": "234-567-8901",
+            "email": "info@example.com",
+            "address": "456 Celebration Lane, Town"
+        },
+        "customer_review": "The engagement party was fantastic! Highly recommended.",
+        "ratings": 4.9
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/1rD2kBg/anneversary.jpg",
+        "title": "Anniversary Celebration",
+        "booking_cost": "$600",
+        "service_description": "Celebrate your special anniversary with a romantic and memorable event.",
+        "our_responsibility": "We plan a romantic setting for your anniversary. Our team arranges personalized decorations. We organize a special menu for the occasion. Entertainment and ambiance are managed. You enjoy a memorable celebration.",
+        "contact_info": {
+            "phone": "345-678-9012",
+            "email": "info@example.com",
+            "address": "789 Love Street, Village"
+        },
+        "customer_review": "Our anniversary celebration was magical. Thank you!",
+        "ratings": 4.7
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/TYp95Sk/party.jpg",
+        "title": "Party Planning",
+        "booking_cost": "$700",
+        "service_description": "Plan the ultimate party with our event planning services.",
+        "our_responsibility": "We help you choose a unique party theme. Our team handles all decorations and setup. We arrange entertainment and activities. Food and drinks are managed by us. You enjoy a stress-free party.",
+        "contact_info": {
+            "phone": "456-789-0123",
+            "email": "info@example.com",
+            "address": "234 Party Avenue, Suburb"
+        },
+        "customer_review": "The party was a blast! Thanks for making it happen.",
+        "ratings": 4.8
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/F3CYDzF/birthday.jpg",
+        "title": "Birthday Bash",
+        "booking_cost": "$400",
+        "service_description": "Throw an unforgettable birthday bash with our event services.",
+        "our_responsibility": "We design a fun and vibrant birthday theme. Our team decorates the venue creatively. We organize games and activities for guests. Delicious food and cake are arranged. You celebrate while we manage everything.",
+        "contact_info": {
+            "phone": "567-890-1234",
+            "email": "info@example.com",
+            "address": "567 Birthday Street, Town"
+        },
+        "customer_review": "The birthday bash was amazing! Highly recommended.",
+        "ratings": 4.9
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/L8w324v/wedding.jpg",
+        "title": "Dream Wedding",
+        "booking_cost": "$1500",
+        "service_description": "Plan your dream wedding with our expert event planners.",
+        "our_responsibility": "We help select the perfect wedding venue. Our team designs stunning decorations. We coordinate catering and menu planning. Entertainment and logistics are managed. You enjoy a flawless wedding day.",
+        "contact_info": {
+            "phone": "678-901-2345",
+            "email": "info@example.com",
+            "address": "890 Wedding Lane, City"
+        },
+        "customer_review": "Our wedding day was perfect thanks to this team!",
+        "ratings": 5.0
+    },
+    {
+        "id": 7,
+        "image": "https://alwaince.com/wp-content/uploads/2021/05/corporate-events.jpg",
+        "title": "Corporate Event",
+        "booking_cost": "$1200",
+        "service_description": "Host professional corporate events with top-tier planning and execution.",
+        "our_responsibility": "We select and book the event venue. Our team manages AV and technical setup. Catering and refreshments are arranged. Branding and decor are handled professionally. You focus on business, we handle the rest.",
+        "contact_info": {
+            "phone": "789-012-3456",
+            "email": "corporate@eventhub.com",
+            "address": "101 Business Park, Metropolis"
+        },
+        "customer_review": "Flawlessly executed. Our clients were impressed!",
+        "ratings": 4.9
+    },
+    {
+        "id": 8,
+        "image": "https://cdn.shopify.com/s/files/1/1083/2612/files/shutterstock_1743759458_480x480.jpg?v=1710750832",
+        "title": "Graduation Ceremony",
+        "booking_cost": "$550",
+        "service_description": "Celebrate your academic achievement in style.",
+        "our_responsibility": "We design custom backdrops and stage setup. Our team arranges seating and decorations. We coordinate the ceremony schedule. Refreshments and photography are managed. You enjoy your special graduation day.",
+        "contact_info": {
+            "phone": "890-123-4567",
+            "email": "graduation@eventhub.com",
+            "address": "202 Campus Drive, College Town"
+        },
+        "customer_review": "An unforgettable graduation. Thank you!",
+        "ratings": 4.7
+    },
+    {
+        "id": 9,
+        "image": "https://cdn.prod.website-files.com/620b4dfc30add2618d5e13a5/622b57f4d6fe6adb2ed2c62c_ultimate-festival-planning-guide.jpeg",
+        "title": "Festival Coordination",
+        "booking_cost": "$2000",
+        "service_description": "Bring your community together with a lively festival!",
+        "our_responsibility": "We organize vendor booths and logistics. Our team arranges entertainment and activities. Safety protocols are implemented throughout. Decorations and signage are managed. You enjoy a vibrant, successful festival.",
+        "contact_info": {
+            "phone": "901-234-5678",
+            "email": "festival@eventhub.com",
+            "address": "303 Festival Plaza, Region"
+        },
+        "customer_review": "Huge turnout and fun for all ages!",
+        "ratings": 4.8
+    },
+    {
+        "id": 10,
+        "image": "https://thumbs.dreamstime.com/b/live-music-concert-singer-performing-stage-dark-atmosphere-dramatic-lighting-passionately-amidst-crowd-creating-364028017.jpg",
+        "title": "Music Night",
+        "booking_cost": "$1000",
+        "service_description": "Rock the night with a perfectly curated music event.",
+        "our_responsibility": "We book live bands and performers. Our team sets up sound and lighting. We manage event logistics and schedule. Refreshments and seating are arranged. You enjoy an energetic music night.",
+        "contact_info": {
+            "phone": "012-345-6789",
+            "email": "music@eventhub.com",
+            "address": "404 Beats Blvd, City"
+        },
+        "customer_review": "Amazing vibes and energy all night long!",
+        "ratings": 4.9
+    },
+    {
+        "id": 11,
+        "image": "https://madgicprod.asia/tw2/",
+        "title": "Charity Gala",
+        "booking_cost": "$900",
+        "service_description": "Host a classy charity gala to raise funds for your cause.",
+        "our_responsibility": "We design and send elegant invitations. Our team arranges dinner and service. Donor engagement activities are managed. Decorations and ambiance are handled. You focus on your cause, we manage the event.",
+        "contact_info": {
+            "phone": "123-987-6543",
+            "email": "charity@eventhub.com",
+            "address": "505 Giving Lane, Capital"
+        },
+        "customer_review": "A meaningful and beautifully executed evening.",
+        "ratings": 4.95
+    }
+]
